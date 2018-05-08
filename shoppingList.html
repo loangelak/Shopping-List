@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset="utf-8">
+        <title>Hannibal's Shopping List</title>
+        <link rel='stylesheet' href='src/style.css'>
+    </head>
+    <body>
+        <div id='page'>
+            <h1 id='header'>Shopping List</h1>
+            <h2>Hannibal's List</h2>
+            <ul>
+                <li id='one'><em>organic</em> litter</li>
+                <li id='two'>cheetos</li>
+                <li id='three'>cereal milk</li>
+                <li id='four'>deli turkey</li>
+            </ul>
+            <div id='newItemButton'><button href='#' id='showForm'>new item</button></div>
+            <form id='newItemForm'>
+                <input type='text' id='itemDescription' placeholder='Add description ...'>
+                <input type='submit' id='addButton' value='add'>
+            </form>
+        </div>
+        <script src="https://code.jquery.com/jquery-1.11.0.js" integrity="sha256-zgND4db0iXaO7v4CLBIYHGoIIudWI5hRMQrPB20j0Qw=" crossorigin="anonymous"></script>
+        <script src='src/index.js'></script>   
+    </body>
+</html>
